@@ -1,0 +1,14 @@
+{% extends "partials/base.html" %}
+
+{% block title %}
+title
+{% endblock %}
+
+{% block content %}
+<h1>Have your say</h1>
+<h1>{{ my_names }}</h1>
+<ul>
+<li>{%for item in my_names %}</li>
+{% endfor %}
+{% endblock content %}
+</ul>

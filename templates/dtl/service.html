@@ -1,0 +1,15 @@
+{% extends "partials/base.html" %}
+
+{% block title %}
+<title>services</title>
+{% endblock  %}
+
+{% block content %}
+<h1>Tired of job hunting or you have an unfinished project. You are in the right place.</h1>
+<ul>
+{%for item in my_services%}
+<li>{{my_services}}</li>
+{% endfor %}
+{% endblock content %}
+</ul>
+
